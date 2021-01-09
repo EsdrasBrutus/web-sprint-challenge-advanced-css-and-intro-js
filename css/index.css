@@ -143,7 +143,7 @@ button:hover{
     }
 
     a{
-        font-size: 1.5rem;
+        font-size: 1.04rem;
     }
 
 
@@ -153,14 +153,17 @@ button:hover{
        
     
     }
-
-    
+   
     nav{
         height: 10%;
-        width:40%;
+        width:30%;
         display:flex;
-        justify-content:space-evenly;
         margin-top:5%;
+
+    }
+
+    nav a{
+        font-size: 1.3rem;
     }
 
     
@@ -183,17 +186,27 @@ button:hover{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        margin-bottom: 5%;
+        width: 40%;
     }
     
     body{
-        font-size: 1rem;
+        font-size: .5rem;
+    }
+
+    .bio{
+        
+        width: 40vw;
+        position: relative;
+        left: calc(-33vw + 90%)
     }
 
     .artist{
-        
+
         height: 10%;
-        width:50%;
-        margin-left: 25%;
+        width:70%;
+        margin: 0 auto;
+        margin-top: 4%;
     }
 
     img {	
